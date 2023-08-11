@@ -1,0 +1,32 @@
+button {
+    padding: 20px;
+    max-width: 200px;
+}
+
+#site-navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* more flexbox properties here */
+    padding: 20px;
+    margin: 20px;
+    background-color: lightblue;
+
+}
+
+#homepage-sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    background-color: lightsalmon;
+}
+
+nav img {
+    max-width: 20px;
+}
+
+.icon-column{
+    display: flex;
+    flex-direction: column;
+}
